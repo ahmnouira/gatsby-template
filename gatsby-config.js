@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Innovant Website`,
-    description: `Innovant is a digital transfornation accelerator specialised in providing innovative entreprise and fintech solutions and applications. We are hot on fintech, ERP, gaming, AR, web development, mobile development, UX, UI`,
+    title: ``,
+    description: ``,
     author: `@ahmnouira`,
   },
   plugins: [
@@ -37,7 +37,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-styled-components',
       options: {
-        // Add any options hres
+        // Add any options here
       },
     },
   ],
