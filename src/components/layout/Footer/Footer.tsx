@@ -3,10 +3,11 @@ import React from 'react'
 export const Footer = ({}) => (
   <footer
     style={{
-      marginTop: `2rem`,
+      margin: '1rem',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
     }}>
-    © {new Date().getFullYear()}, Built with
-    {` `}
-    <a href='https://www.gatsbyjs.com'>Gatsby</a>
+    <a href='https://www.gatsbyjs.com'> © {new Date().getFullYear()}, Built with Gatsby</a>
   </footer>
 )
